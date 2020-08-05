@@ -3,3 +3,6 @@ streamOutput: false
 coresPerFork: 6
 memoryInGbPerFork: 10
 nodeTaints: ["big"]
+nodeAffinity:
+- key: type
+  values: [ 'big' ]
