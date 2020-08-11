@@ -1,7 +1,7 @@
 numberOfShards: 5
 streamOutput: false
 coresPerFork: 6
-memoryInGbPerFork: 28
+memoryInGbPerFork: 24
 nodeTaints: ["small"]
 nodeAffinity:
 - key: type
